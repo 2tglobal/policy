@@ -1,0 +1,2365 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>KeepLater Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for KeepLater - Save links and organize videos to watch later."
+  />
+
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #6d5dfc;
+      --primary-dark: #5546e8;
+      --border: #e5e7eb;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      background:
+        linear-gradient(
+          180deg,
+          #f0eeff 0%,
+          #fafaff 25%,
+          #f4f7fb 100%
+        );
+
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .hero {
+      background:
+        linear-gradient(
+          135deg,
+          #6d5dfc 0%,
+          #4f46e5 55%,
+          #4338ca 100%
+        );
+
+      color: white;
+      padding: 56px 20px 44px;
+    }
+
+    .hero-inner {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.18);
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 18px;
+      backdrop-filter: blur(6px);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.15;
+    }
+
+    .hero p {
+      margin: 0;
+      font-size: 16px;
+      opacity: 0.96;
+      max-width: 760px;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: -22px auto 40px;
+      padding: 0 20px 40px;
+    }
+
+    .topbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+      align-items: center;
+
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+
+    .last-updated {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+    }
+
+    .lang-btn {
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text);
+
+      padding: 10px 14px;
+      border-radius: 12px;
+
+      cursor: pointer;
+      font-weight: 600;
+
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary-dark);
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    .toc-title {
+      margin-top: 0;
+      margin-bottom: 14px;
+      font-size: 20px;
+    }
+
+    .toc {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(240px, 1fr));
+
+      gap: 10px 18px;
+
+      padding: 0;
+      margin: 0;
+
+      list-style: none;
+    }
+
+    .toc a {
+      text-decoration: none;
+      color: var(--primary-dark);
+      font-weight: 600;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
+    .lang-content {
+      display: none;
+    }
+
+    .lang-content.active {
+      display: block;
+    }
+
+    .section {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .section h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      line-height: 1.3;
+    }
+
+    .section h3 {
+      margin: 18px 0 10px;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 8px 0 14px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .notice {
+      background: #f5f3ff;
+      border: 1px solid #ddd6fe;
+      border-radius: 16px;
+      padding: 18px;
+      margin: 14px 0;
+    }
+
+    .contact-box {
+      background: #fafaff;
+      border: 1px solid #ddd6fe;
+      border-radius: 16px;
+      padding: 18px;
+      margin-top: 14px;
+    }
+
+    .contact-box strong {
+      display: inline-block;
+      min-width: 90px;
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    .pill {
+      display: inline-block;
+
+      background: #f5f3ff;
+      color: #5b21b6;
+
+      border: 1px solid #ddd6fe;
+      border-radius: 999px;
+
+      padding: 6px 12px;
+
+      font-size: 13px;
+      font-weight: 600;
+
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: var(--primary-dark);
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 20px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+      }
+
+      .lang-switch {
+        width: 100%;
+      }
+
+      .lang-btn {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+
+    <div class="badge">
+      KeepLater • Privacy Policy
+    </div>
+
+    <h1>Privacy Policy</h1>
+
+    <p>
+      This page explains how KeepLater handles information
+      when you save, organize, and revisit online content.
+      Trang này mô tả cách KeepLater xử lý thông tin khi bạn
+      lưu, sắp xếp và xem lại nội dung trực tuyến.
+    </p>
+
+  </div>
+</header>
+
+
+<main class="wrap">
+
+  <!-- TOP BAR -->
+
+  <section class="topbar">
+
+    <div class="last-updated">
+      <strong>Last updated / Cập nhật lần cuối:</strong>
+      September 5, 2026
+    </div>
+
+    <div class="lang-switch">
+
+      <button
+        class="lang-btn"
+        id="btn-vi"
+        onclick="switchLang('vi')"
+      >
+        Tiếng Việt
+      </button>
+
+      <button
+        class="lang-btn active"
+        id="btn-en"
+        onclick="switchLang('en')"
+      >
+        English
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- INTRO -->
+
+  <section class="card">
+
+    <div class="pill">KeepLater</div>
+
+    <p class="intro">
+      KeepLater is a content organization application that
+      helps users save links to online videos and other supported
+      content, organize saved items using tags and collections,
+      and conveniently revisit them later.
+    </p>
+
+    <p class="intro">
+      KeepLater là ứng dụng giúp người dùng lưu liên kết đến
+      video và các nội dung trực tuyến được hỗ trợ, sắp xếp
+      nội dung bằng nhãn và bộ sưu tập, sau đó dễ dàng
+      xem lại khi cần.
+    </p>
+
+  </section>
+
+
+  <!-- TABLE OF CONTENTS -->
+
+  <section class="card">
+
+    <h2 class="toc-title">
+      Contents / Mục lục
+    </h2>
+
+    <ul class="toc">
+
+      <li>
+        <a href="#about">
+          1. About / Giới thiệu
+        </a>
+      </li>
+
+      <li>
+        <a href="#information">
+          2. Information We Process / Thông tin được xử lý
+        </a>
+      </li>
+
+      <li>
+        <a href="#links">
+          3. Saved Links & Metadata / Liên kết và Metadata
+        </a>
+      </li>
+
+      <li>
+        <a href="#share-extension">
+          4. Share Extension / Tiện ích chia sẻ
+        </a>
+      </li>
+
+      <li>
+        <a href="#usage">
+          5. How We Use Information / Mục đích sử dụng
+        </a>
+      </li>
+
+      <li>
+        <a href="#storage">
+          6. Data Storage / Lưu trữ dữ liệu
+        </a>
+      </li>
+
+      <li>
+        <a href="#thirdparty">
+          7. Third-Party Platforms / Nền tảng bên thứ ba
+        </a>
+      </li>
+
+      <li>
+        <a href="#permissions">
+          8. Device Permissions / Quyền thiết bị
+        </a>
+      </li>
+
+      <li>
+        <a href="#tracking">
+          9. Tracking & Advertising / Theo dõi và quảng cáo
+        </a>
+      </li>
+
+      <li>
+        <a href="#sharing">
+          10. Data Sharing / Chia sẻ dữ liệu
+        </a>
+      </li>
+
+      <li>
+        <a href="#retention">
+          11. Data Retention / Thời gian lưu trữ
+        </a>
+      </li>
+
+      <li>
+        <a href="#deletion">
+          12. Data Deletion / Xóa dữ liệu
+        </a>
+      </li>
+
+      <li>
+        <a href="#children">
+          13. Children’s Privacy / Quyền riêng tư trẻ em
+        </a>
+      </li>
+
+      <li>
+        <a href="#security">
+          14. Security / Bảo mật
+        </a>
+      </li>
+
+      <li>
+        <a href="#copyright">
+          15. Third-Party Content / Nội dung bên thứ ba
+        </a>
+      </li>
+
+      <li>
+        <a href="#international">
+          16. International Users / Người dùng quốc tế
+        </a>
+      </li>
+
+      <li>
+        <a href="#changes">
+          17. Policy Changes / Thay đổi chính sách
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact">
+          18. Contact Us / Liên hệ
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+
+  <!-- ============================== -->
+  <!-- ENGLISH -->
+  <!-- ============================== -->
+
+  <section
+    class="card lang-content active"
+    id="content-en"
+  >
+
+    <div class="pill">English</div>
+
+
+    <!-- 1 -->
+
+    <div class="section" id="about">
+
+      <h2>
+        1. About KeepLater
+      </h2>
+
+      <p>
+        KeepLater is designed to help users save and organize
+        links to online content for convenient access later.
+      </p>
+
+      <p>
+        Depending on the available features,
+        KeepLater may allow users to:
+      </p>
+
+      <ul>
+        <li>
+          Save links shared from supported applications.
+        </li>
+
+        <li>
+          Paste a link manually into KeepLater.
+        </li>
+
+        <li>
+          Save information associated with a link,
+          such as a title, thumbnail, description,
+          creator name, or source.
+        </li>
+
+        <li>
+          Organize saved items using tags,
+          favorites, collections, or topics.
+        </li>
+
+        <li>
+          Search and filter previously saved content.
+        </li>
+
+        <li>
+          Revisit supported online content later.
+        </li>
+
+        <li>
+          Open supported content using an appropriate
+          playback or web-based experience.
+        </li>
+      </ul>
+
+      <div class="notice">
+
+        <strong>Important:</strong>
+
+        <p>
+          KeepLater is an independent application.
+          It is not affiliated with, endorsed by, sponsored by,
+          or officially connected with YouTube, TikTok,
+          or other third-party content platforms unless
+          explicitly stated otherwise.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- 2 -->
+
+    <div class="section" id="information">
+
+      <h2>
+        2. Information We May Process
+      </h2>
+
+      <p>
+        Depending on the features you use,
+        KeepLater may process the following information.
+      </p>
+
+
+      <h3>
+        Saved Content Information
+      </h3>
+
+      <ul>
+
+        <li>URLs submitted or shared by you</li>
+
+        <li>Video or content titles</li>
+
+        <li>Descriptions</li>
+
+        <li>Thumbnail URLs or images</li>
+
+        <li>Creator or channel names</li>
+
+        <li>Source platform</li>
+
+        <li>Content identifiers</li>
+
+        <li>Tags and collections created by you</li>
+
+        <li>Favorite status</li>
+
+        <li>Date and time an item was saved</li>
+
+        <li>
+          Other metadata made publicly available
+          by the source webpage or platform
+        </li>
+
+      </ul>
+
+
+      <h3>
+        User Preferences
+      </h3>
+
+      <p>
+        KeepLater may store preferences such as:
+      </p>
+
+      <ul>
+
+        <li>Selected topics</li>
+
+        <li>Tags</li>
+
+        <li>Collections</li>
+
+        <li>Playback preferences</li>
+
+        <li>Language preferences</li>
+
+        <li>Application settings</li>
+
+      </ul>
+
+
+      <h3>
+        Technical Information
+      </h3>
+
+      <p>
+        Limited technical information may be processed
+        where required for application operation,
+        diagnostics, security, or crash analysis.
+      </p>
+
+      <p>
+        This information may include:
+      </p>
+
+      <ul>
+
+        <li>Device model</li>
+
+        <li>Operating system version</li>
+
+        <li>Application version</li>
+
+        <li>Language and region</li>
+
+        <li>Crash information</li>
+
+        <li>Diagnostic information</li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- 3 -->
+
+    <div class="section" id="links">
+
+      <h2>
+        3. Saved Links and Metadata
+      </h2>
+
+      <p>
+        When you add an online link to KeepLater,
+        the application may access that URL to obtain
+        information required to display and organize
+        the saved item.
+      </p>
+
+      <p>
+        Depending on the source,
+        this may include publicly available information
+        such as:
+      </p>
+
+      <ul>
+
+        <li>Title</li>
+
+        <li>Description</li>
+
+        <li>Thumbnail</li>
+
+        <li>Creator or channel</li>
+
+        <li>Content type</li>
+
+        <li>Publication information</li>
+
+        <li>Source website</li>
+
+      </ul>
+
+      <p>
+        KeepLater uses this information to create
+        a convenient personal library of links
+        selected by you.
+      </p>
+
+      <p>
+        KeepLater does not claim ownership
+        of third-party content referenced by saved links.
+      </p>
+
+    </div>
+
+
+    <!-- 4 -->
+
+    <div class="section" id="share-extension">
+
+      <h2>
+        4. Share Extension
+      </h2>
+
+      <p>
+        KeepLater may provide a Share Extension
+        that allows you to send a link from another
+        application directly to KeepLater.
+      </p>
+
+      <p>
+        When you choose KeepLater from the system
+        share sheet, the application may receive
+        information that you intentionally share,
+        including:
+      </p>
+
+      <ul>
+
+        <li>The shared URL</li>
+
+        <li>Shared text</li>
+
+        <li>Content title when available</li>
+
+        <li>
+          Other information provided to the Share Extension
+          by the source application or operating system
+        </li>
+
+      </ul>
+
+      <p>
+        KeepLater does not use the Share Extension
+        to access unrelated information from the
+        source application.
+      </p>
+
+    </div>
+
+
+    <!-- 5 -->
+
+    <div class="section" id="usage">
+
+      <h2>
+        5. How We Use Information
+      </h2>
+
+      <p>
+        Information processed by KeepLater may be used to:
+      </p>
+
+      <ul>
+
+        <li>
+          Save links requested by you
+        </li>
+
+        <li>
+          Retrieve metadata for saved links
+        </li>
+
+        <li>
+          Display your saved content library
+        </li>
+
+        <li>
+          Organize content using tags and collections
+        </li>
+
+        <li>
+          Provide search and filtering
+        </li>
+
+        <li>
+          Remember favorites and application preferences
+        </li>
+
+        <li>
+          Enable supported playback experiences
+        </li>
+
+        <li>
+          Improve application performance and stability
+        </li>
+
+        <li>
+          Diagnose errors and technical problems
+        </li>
+
+        <li>
+          Protect the application against abuse
+          or security issues
+        </li>
+
+      </ul>
+
+      <p>
+        We do not sell your personal information.
+      </p>
+
+    </div>
+
+
+    <!-- 6 -->
+
+    <div class="section" id="storage">
+
+      <h2>
+        6. Data Storage
+      </h2>
+
+      <p>
+        KeepLater is designed to store application
+        information locally on your device where possible.
+      </p>
+
+      <p>
+        Local information may include:
+      </p>
+
+      <ul>
+
+        <li>Saved URLs</li>
+
+        <li>Metadata</li>
+
+        <li>Tags</li>
+
+        <li>Collections</li>
+
+        <li>Favorites</li>
+
+        <li>Application preferences</li>
+
+      </ul>
+
+      <p>
+        Depending on future versions and enabled features,
+        some information may also be processed through
+        platform services or service providers when
+        required to provide specific functionality.
+      </p>
+
+      <p>
+        We use reasonable safeguards designed
+        to protect information from unauthorized access,
+        alteration, misuse, or loss.
+      </p>
+
+      <p>
+        However, no electronic storage or transmission
+        method can be guaranteed to be completely secure.
+      </p>
+
+    </div>
+
+
+    <!-- 7 -->
+
+    <div class="section" id="thirdparty">
+
+      <h2>
+        7. Third-Party Platforms and Services
+      </h2>
+
+      <p>
+        KeepLater may interact with websites,
+        content providers, or platforms when you
+        intentionally save or view a link from those services.
+      </p>
+
+      <p>
+        Examples of supported or potentially supported
+        sources may include:
+      </p>
+
+      <ul>
+
+        <li>YouTube</li>
+
+        <li>TikTok</li>
+
+        <li>
+          Other websites or content platforms
+          supported by KeepLater
+        </li>
+
+      </ul>
+
+      <p>
+        These third-party services operate independently
+        from KeepLater and may collect or process
+        information according to their own terms
+        and privacy policies.
+      </p>
+
+      <p>
+        When content is displayed through an embedded
+        webpage, web player, or similar third-party
+        technology, the relevant provider may process
+        information according to its own privacy practices.
+      </p>
+
+      <p>
+        KeepLater is not responsible for the privacy
+        practices, availability, content, or policies
+        of third-party services.
+      </p>
+
+    </div>
+
+
+    <!-- 8 -->
+
+    <div class="section" id="permissions">
+
+      <h2>
+        8. Device Permissions
+      </h2>
+
+      <p>
+        KeepLater aims to request only permissions
+        required for available features.
+      </p>
+
+
+      <h3>
+        Network Access
+      </h3>
+
+      <p>
+        Internet access is required to retrieve information
+        from links, load thumbnails, access supported
+        webpages, and display online content.
+      </p>
+
+
+      <h3>
+        Share Extension
+      </h3>
+
+      <p>
+        The system Share Extension allows KeepLater
+        to receive links and content that you
+        intentionally choose to share with the application.
+      </p>
+
+
+      <h3>
+        Notifications
+      </h3>
+
+      <p>
+        If notification features are available
+        and you enable them, KeepLater may use
+        notification permission to provide reminders
+        or information requested by you.
+      </p>
+
+
+      <p>
+        Permissions can be managed or revoked
+        through your device settings at any time.
+      </p>
+
+    </div>
+
+
+    <!-- 9 -->
+
+    <div class="section" id="tracking">
+
+      <h2>
+        9. Tracking and Advertising
+      </h2>
+
+      <p>
+        KeepLater does not sell personal information.
+      </p>
+
+      <p>
+        KeepLater does not use saved URLs,
+        tags, collections, or viewing organization
+        data to create advertising profiles
+        unless such a feature is explicitly introduced
+        and disclosed in an updated Privacy Policy.
+      </p>
+
+      <p>
+        If advertising or analytics technologies
+        are introduced in a future version,
+        this Privacy Policy will be updated where required.
+      </p>
+
+    </div>
+
+
+    <!-- 10 -->
+
+    <div class="section" id="sharing">
+
+      <h2>
+        10. Data Sharing
+      </h2>
+
+      <p>
+        We do not sell, rent, or trade
+        your personal information.
+      </p>
+
+      <p>
+        Information may be disclosed only where necessary:
+      </p>
+
+      <ul>
+
+        <li>
+          To provide a feature explicitly requested by you
+        </li>
+
+        <li>
+          To interact with the website or service
+          represented by a link you submit
+        </li>
+
+        <li>
+          To protect application security
+        </li>
+
+        <li>
+          To investigate fraud, misuse, or abuse
+        </li>
+
+        <li>
+          To comply with applicable laws,
+          court orders, or lawful requests
+        </li>
+
+        <li>
+          To protect our legal rights
+          or the safety of users
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- 11 -->
+
+    <div class="section" id="retention">
+
+      <h2>
+        11. Data Retention
+      </h2>
+
+      <p>
+        Data stored locally by KeepLater generally remains
+        on your device until you remove the relevant item,
+        reset the application, or uninstall the application,
+        subject to operating system backup behavior.
+      </p>
+
+      <p>
+        Any information processed by service providers,
+        if applicable, may be retained only as necessary
+        to provide the relevant service, comply with
+        legal obligations, resolve disputes,
+        or protect security.
+      </p>
+
+    </div>
+
+
+    <!-- 12 -->
+
+    <div class="section" id="deletion">
+
+      <h2>
+        12. Data Deletion
+      </h2>
+
+      <p>
+        Where supported by the application,
+        you can delete saved items,
+        tags, collections, favorites,
+        and related application data directly
+        from KeepLater.
+      </p>
+
+      <p>
+        Uninstalling KeepLater generally removes
+        locally stored application data,
+        subject to operating system backup
+        and restore functionality.
+      </p>
+
+      <p>
+        If you believe information relating to you
+        is stored by a service controlled by us
+        and would like to request deletion,
+        please contact us using the email
+        address below.
+      </p>
+
+    </div>
+
+
+    <!-- 13 -->
+
+    <div class="section" id="children">
+
+      <h2>
+        13. Children’s Privacy
+      </h2>
+
+      <p>
+        KeepLater is not specifically designed
+        for children below the minimum age
+        required by applicable law.
+      </p>
+
+      <p>
+        We do not knowingly collect personal
+        information from children in violation
+        of applicable privacy laws.
+      </p>
+
+    </div>
+
+
+    <!-- 14 -->
+
+    <div class="section" id="security">
+
+      <h2>
+        14. Security
+      </h2>
+
+      <p>
+        We use reasonable technical safeguards
+        designed to protect information processed
+        by KeepLater.
+      </p>
+
+      <p>
+        Users are also responsible for protecting
+        access to their devices.
+      </p>
+
+      <p>
+        We recommend using security features such as:
+      </p>
+
+      <ul>
+
+        <li>Device passcodes</li>
+
+        <li>Face ID</li>
+
+        <li>Touch ID</li>
+
+        <li>
+          Other security features provided
+          by the operating system
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- 15 -->
+
+    <div class="section" id="copyright">
+
+      <h2>
+        15. Third-Party Content and Intellectual Property
+      </h2>
+
+      <p>
+        KeepLater helps users organize links to content
+        available through third-party platforms.
+      </p>
+
+      <p>
+        Ownership of videos, images, audio,
+        trademarks, logos, channel names,
+        and other third-party materials remains
+        with their respective owners.
+      </p>
+
+      <p>
+        Saving a link in KeepLater does not transfer
+        ownership or intellectual property rights
+        in the linked content to KeepLater
+        or to the user.
+      </p>
+
+      <p>
+        Users are responsible for using third-party
+        content in accordance with applicable laws
+        and the terms of the relevant content provider.
+      </p>
+
+      <div class="notice">
+
+        <p>
+          YouTube and related marks are trademarks
+          of Google LLC.
+        </p>
+
+        <p>
+          TikTok and related marks are trademarks
+          of their respective owners.
+        </p>
+
+        <p>
+          References to third-party platforms
+          are used only to identify compatible
+          or linked services and do not imply
+          sponsorship or endorsement.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- 16 -->
+
+    <div class="section" id="international">
+
+      <h2>
+        16. International Users
+      </h2>
+
+      <p>
+        KeepLater may be available in multiple
+        countries and languages.
+      </p>
+
+      <p>
+        When you access third-party content,
+        information may be processed by
+        third-party providers in countries
+        other than your country of residence,
+        according to their own infrastructure
+        and privacy practices.
+      </p>
+
+    </div>
+
+
+    <!-- 17 -->
+
+    <div class="section" id="changes">
+
+      <h2>
+        17. Changes to This Privacy Policy
+      </h2>
+
+      <p>
+        We may update this Privacy Policy
+        when KeepLater introduces new features,
+        changes its data practices,
+        integrates additional services,
+        or when legal requirements change.
+      </p>
+
+      <p>
+        When this Privacy Policy is updated,
+        the revised version will be published
+        with a new “Last updated” date.
+      </p>
+
+    </div>
+
+
+    <!-- 18 -->
+
+    <div class="section" id="contact">
+
+      <h2>
+        18. Contact Us
+      </h2>
+
+      <p>
+        If you have questions regarding
+        this Privacy Policy or KeepLater's
+        privacy practices, please contact us.
+      </p>
+
+      <div class="contact-box">
+
+        <p>
+          <strong>App:</strong>
+          KeepLater
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+
+          <a href="mailto:2t.global921@gmail.com">
+            2t.global921@gmail.com
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ============================== -->
+  <!-- VIETNAMESE -->
+  <!-- ============================== -->
+
+  <section
+    class="card lang-content"
+    id="content-vi"
+  >
+
+    <div class="pill">
+      Tiếng Việt
+    </div>
+
+
+    <!-- 1 -->
+
+    <div class="section">
+
+      <h2>
+        1. Giới thiệu về KeepLater
+      </h2>
+
+      <p>
+        KeepLater là ứng dụng giúp người dùng
+        lưu và sắp xếp các liên kết đến nội dung
+        trực tuyến để có thể dễ dàng xem lại sau.
+      </p>
+
+      <p>
+        Tùy theo phiên bản và các tính năng
+        đang được cung cấp, KeepLater có thể hỗ trợ:
+      </p>
+
+      <ul>
+
+        <li>
+          Lưu liên kết được chia sẻ từ
+          các ứng dụng được hỗ trợ.
+        </li>
+
+        <li>
+          Dán liên kết thủ công vào KeepLater.
+        </li>
+
+        <li>
+          Lưu các thông tin liên quan đến liên kết
+          như tiêu đề, ảnh đại diện, mô tả,
+          tên người sáng tạo hoặc nguồn nội dung.
+        </li>
+
+        <li>
+          Sắp xếp nội dung bằng nhãn,
+          yêu thích, bộ sưu tập hoặc chủ đề.
+        </li>
+
+        <li>
+          Tìm kiếm và lọc các nội dung đã lưu.
+        </li>
+
+        <li>
+          Xem lại nội dung trực tuyến đã lưu.
+        </li>
+
+        <li>
+          Mở nội dung thông qua phương thức phát
+          hoặc trình duyệt web phù hợp
+          với từng nguồn nội dung.
+        </li>
+
+      </ul>
+
+      <div class="notice">
+
+        <strong>Lưu ý quan trọng:</strong>
+
+        <p>
+          KeepLater là một ứng dụng độc lập.
+          KeepLater không phải là ứng dụng chính thức,
+          không được tài trợ, chứng thực hoặc liên kết
+          chính thức với YouTube, TikTok hoặc
+          các nền tảng nội dung bên thứ ba khác,
+          trừ khi có thông báo rõ ràng.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- 2 -->
+
+    <div class="section">
+
+      <h2>
+        2. Thông tin KeepLater có thể xử lý
+      </h2>
+
+      <p>
+        Tùy theo tính năng bạn sử dụng,
+        KeepLater có thể xử lý các thông tin sau.
+      </p>
+
+
+      <h3>
+        Thông tin nội dung đã lưu
+      </h3>
+
+      <ul>
+
+        <li>
+          URL được bạn chia sẻ hoặc nhập vào
+        </li>
+
+        <li>
+          Tiêu đề video hoặc nội dung
+        </li>
+
+        <li>Mô tả</li>
+
+        <li>
+          URL ảnh đại diện hoặc ảnh thumbnail
+        </li>
+
+        <li>
+          Tên người sáng tạo hoặc tên kênh
+        </li>
+
+        <li>
+          Nền tảng nguồn
+        </li>
+
+        <li>
+          Mã định danh của nội dung
+        </li>
+
+        <li>
+          Nhãn và bộ sưu tập do bạn tạo
+        </li>
+
+        <li>
+          Trạng thái yêu thích
+        </li>
+
+        <li>
+          Thời điểm nội dung được lưu
+        </li>
+
+        <li>
+          Các metadata công khai khác
+          được cung cấp bởi trang web
+          hoặc nền tảng nguồn
+        </li>
+
+      </ul>
+
+
+      <h3>
+        Cài đặt và tùy chọn người dùng
+      </h3>
+
+      <p>
+        KeepLater có thể lưu các tùy chọn như:
+      </p>
+
+      <ul>
+
+        <li>Chủ đề đã chọn</li>
+
+        <li>Nhãn</li>
+
+        <li>Bộ sưu tập</li>
+
+        <li>Cài đặt phát nội dung</li>
+
+        <li>Ngôn ngữ</li>
+
+        <li>Cài đặt ứng dụng</li>
+
+      </ul>
+
+
+      <h3>
+        Thông tin kỹ thuật
+      </h3>
+
+      <p>
+        Để đảm bảo ứng dụng hoạt động ổn định,
+        xử lý lỗi hoặc bảo mật,
+        KeepLater có thể xử lý một số
+        dữ liệu kỹ thuật giới hạn.
+      </p>
+
+      <p>
+        Các thông tin này có thể bao gồm:
+      </p>
+
+      <ul>
+
+        <li>Loại thiết bị</li>
+
+        <li>Phiên bản hệ điều hành</li>
+
+        <li>Phiên bản ứng dụng</li>
+
+        <li>Ngôn ngữ và khu vực</li>
+
+        <li>Thông tin lỗi</li>
+
+        <li>Dữ liệu chẩn đoán</li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- 3 -->
+
+    <div class="section">
+
+      <h2>
+        3. Liên kết và Metadata
+      </h2>
+
+      <p>
+        Khi bạn thêm một liên kết trực tuyến
+        vào KeepLater, ứng dụng có thể truy cập
+        URL đó để lấy những thông tin cần thiết
+        nhằm hiển thị và sắp xếp nội dung.
+      </p>
+
+      <p>
+        Tùy thuộc vào nguồn nội dung,
+        các thông tin công khai có thể bao gồm:
+      </p>
+
+      <ul>
+
+        <li>Tiêu đề</li>
+
+        <li>Mô tả</li>
+
+        <li>Ảnh thumbnail</li>
+
+        <li>Người sáng tạo hoặc kênh</li>
+
+        <li>Loại nội dung</li>
+
+        <li>Thông tin xuất bản</li>
+
+        <li>Trang web nguồn</li>
+
+      </ul>
+
+      <p>
+        KeepLater sử dụng các thông tin này
+        để tạo thư viện nội dung cá nhân
+        từ những liên kết do chính bạn lựa chọn.
+      </p>
+
+      <p>
+        KeepLater không tuyên bố quyền sở hữu
+        đối với nội dung của bên thứ ba
+        được liên kết trong ứng dụng.
+      </p>
+
+    </div>
+
+
+    <!-- 4 -->
+
+    <div class="section">
+
+      <h2>
+        4. Share Extension – Tiện ích chia sẻ
+      </h2>
+
+      <p>
+        KeepLater có thể cung cấp Share Extension
+        cho phép bạn gửi liên kết từ một ứng dụng khác
+        trực tiếp vào KeepLater thông qua
+        menu Chia sẻ của hệ điều hành.
+      </p>
+
+      <p>
+        Khi bạn chủ động lựa chọn KeepLater
+        trong menu Chia sẻ, ứng dụng có thể nhận:
+      </p>
+
+      <ul>
+
+        <li>URL được chia sẻ</li>
+
+        <li>Nội dung văn bản được chia sẻ</li>
+
+        <li>Tiêu đề nếu có</li>
+
+        <li>
+          Các thông tin khác được ứng dụng nguồn
+          hoặc hệ điều hành gửi đến Share Extension
+        </li>
+
+      </ul>
+
+      <p>
+        KeepLater không sử dụng Share Extension
+        để truy cập các dữ liệu không liên quan
+        trong ứng dụng nguồn.
+      </p>
+
+    </div>
+
+
+    <!-- 5 -->
+
+    <div class="section">
+
+      <h2>
+        5. Mục đích sử dụng thông tin
+      </h2>
+
+      <p>
+        Thông tin được KeepLater xử lý có thể
+        được sử dụng để:
+      </p>
+
+      <ul>
+
+        <li>
+          Lưu liên kết theo yêu cầu của bạn
+        </li>
+
+        <li>
+          Lấy metadata của liên kết
+        </li>
+
+        <li>
+          Hiển thị thư viện nội dung đã lưu
+        </li>
+
+        <li>
+          Sắp xếp nội dung bằng nhãn
+          và bộ sưu tập
+        </li>
+
+        <li>
+          Cung cấp tìm kiếm và bộ lọc
+        </li>
+
+        <li>
+          Ghi nhớ nội dung yêu thích
+          và cài đặt ứng dụng
+        </li>
+
+        <li>
+          Cung cấp trải nghiệm phát nội dung
+          phù hợp khi được hỗ trợ
+        </li>
+
+        <li>
+          Cải thiện hiệu năng
+          và độ ổn định của ứng dụng
+        </li>
+
+        <li>
+          Phát hiện và xử lý lỗi kỹ thuật
+        </li>
+
+        <li>
+          Bảo vệ ứng dụng khỏi hành vi
+          lạm dụng hoặc vấn đề bảo mật
+        </li>
+
+      </ul>
+
+      <p>
+        Chúng tôi không bán dữ liệu cá nhân
+        của người dùng.
+      </p>
+
+    </div>
+
+
+    <!-- 6 -->
+
+    <div class="section">
+
+      <h2>
+        6. Lưu trữ dữ liệu
+      </h2>
+
+      <p>
+        KeepLater được thiết kế để ưu tiên
+        lưu dữ liệu ứng dụng trực tiếp trên
+        thiết bị của bạn khi có thể.
+      </p>
+
+      <p>
+        Các dữ liệu cục bộ có thể bao gồm:
+      </p>
+
+      <ul>
+
+        <li>URL đã lưu</li>
+
+        <li>Metadata</li>
+
+        <li>Nhãn</li>
+
+        <li>Bộ sưu tập</li>
+
+        <li>Nội dung yêu thích</li>
+
+        <li>Cài đặt ứng dụng</li>
+
+      </ul>
+
+      <p>
+        Tùy thuộc vào các phiên bản hoặc
+        tính năng trong tương lai,
+        một số dữ liệu có thể được xử lý
+        thông qua dịch vụ của hệ điều hành
+        hoặc nhà cung cấp dịch vụ khi cần thiết.
+      </p>
+
+      <p>
+        Chúng tôi áp dụng các biện pháp
+        kỹ thuật hợp lý nhằm bảo vệ dữ liệu
+        khỏi truy cập trái phép, chỉnh sửa,
+        sử dụng sai hoặc mất mát.
+      </p>
+
+      <p>
+        Tuy nhiên, không có phương thức
+        lưu trữ hoặc truyền dữ liệu điện tử
+        nào có thể đảm bảo an toàn tuyệt đối.
+      </p>
+
+    </div>
+
+
+    <!-- 7 -->
+
+    <div class="section">
+
+      <h2>
+        7. Nền tảng và dịch vụ bên thứ ba
+      </h2>
+
+      <p>
+        KeepLater có thể tương tác với các
+        website hoặc nền tảng nội dung khi
+        bạn chủ động lưu hoặc mở liên kết
+        từ những dịch vụ đó.
+      </p>
+
+      <p>
+        Các nguồn nội dung được hỗ trợ
+        hoặc có thể được hỗ trợ bao gồm:
+      </p>
+
+      <ul>
+
+        <li>YouTube</li>
+
+        <li>TikTok</li>
+
+        <li>
+          Các website hoặc nền tảng
+          được KeepLater hỗ trợ khác
+        </li>
+
+      </ul>
+
+      <p>
+        Các dịch vụ này hoạt động độc lập
+        với KeepLater và có thể xử lý thông tin
+        theo điều khoản và chính sách riêng
+        của họ.
+      </p>
+
+      <p>
+        Khi nội dung được hiển thị thông qua
+        trang web nhúng, trình phát web
+        hoặc công nghệ của bên thứ ba,
+        nhà cung cấp tương ứng có thể
+        xử lý dữ liệu theo chính sách
+        quyền riêng tư của họ.
+      </p>
+
+      <p>
+        KeepLater không chịu trách nhiệm
+        đối với chính sách quyền riêng tư,
+        nội dung, khả năng hoạt động hoặc
+        các chính sách của dịch vụ bên thứ ba.
+      </p>
+
+    </div>
+
+
+    <!-- 8 -->
+
+    <div class="section">
+
+      <h2>
+        8. Quyền truy cập thiết bị
+      </h2>
+
+      <p>
+        KeepLater cố gắng chỉ yêu cầu những
+        quyền cần thiết cho các tính năng
+        đang được cung cấp.
+      </p>
+
+
+      <h3>
+        Truy cập Internet
+      </h3>
+
+      <p>
+        KeepLater cần kết nối Internet
+        để lấy thông tin từ liên kết,
+        tải thumbnail, truy cập website
+        và hiển thị nội dung trực tuyến.
+      </p>
+
+
+      <h3>
+        Share Extension
+      </h3>
+
+      <p>
+        Share Extension cho phép KeepLater
+        nhận những liên kết hoặc nội dung
+        mà bạn chủ động lựa chọn chia sẻ
+        với ứng dụng.
+      </p>
+
+
+      <h3>
+        Thông báo
+      </h3>
+
+      <p>
+        Nếu KeepLater cung cấp tính năng
+        thông báo và bạn chủ động bật tính năng này,
+        quyền Notification có thể được sử dụng
+        để gửi nhắc nhở hoặc thông tin
+        do bạn lựa chọn.
+      </p>
+
+
+      <p>
+        Bạn có thể quản lý hoặc thu hồi
+        các quyền bất kỳ lúc nào trong
+        phần Cài đặt của thiết bị.
+      </p>
+
+    </div>
+
+
+    <!-- 9 -->
+
+    <div class="section">
+
+      <h2>
+        9. Theo dõi và quảng cáo
+      </h2>
+
+      <p>
+        KeepLater không bán dữ liệu cá nhân.
+      </p>
+
+      <p>
+        KeepLater không sử dụng các URL đã lưu,
+        nhãn, bộ sưu tập hoặc cách bạn sắp xếp
+        nội dung để xây dựng hồ sơ quảng cáo
+        cá nhân, trừ khi một tính năng như vậy
+        được giới thiệu rõ ràng trong tương lai
+        và được công bố trong chính sách cập nhật.
+      </p>
+
+      <p>
+        Nếu trong tương lai KeepLater tích hợp
+        quảng cáo hoặc các công nghệ phân tích
+        mới, Privacy Policy sẽ được cập nhật
+        khi cần thiết.
+      </p>
+
+    </div>
+
+
+    <!-- 10 -->
+
+    <div class="section">
+
+      <h2>
+        10. Chia sẻ dữ liệu
+      </h2>
+
+      <p>
+        Chúng tôi không bán, cho thuê
+        hoặc trao đổi dữ liệu cá nhân của bạn.
+      </p>
+
+      <p>
+        Thông tin chỉ có thể được tiết lộ
+        khi cần thiết:
+      </p>
+
+      <ul>
+
+        <li>
+          Để cung cấp tính năng
+          mà bạn chủ động yêu cầu
+        </li>
+
+        <li>
+          Để tương tác với website hoặc
+          dịch vụ thuộc liên kết bạn gửi vào
+        </li>
+
+        <li>
+          Để bảo vệ an toàn của ứng dụng
+        </li>
+
+        <li>
+          Để điều tra gian lận,
+          lạm dụng hoặc sử dụng sai mục đích
+        </li>
+
+        <li>
+          Để tuân thủ luật pháp,
+          yêu cầu hợp pháp hoặc quyết định
+          của cơ quan có thẩm quyền
+        </li>
+
+        <li>
+          Để bảo vệ quyền lợi hợp pháp
+          hoặc sự an toàn của người dùng
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- 11 -->
+
+    <div class="section">
+
+      <h2>
+        11. Thời gian lưu trữ dữ liệu
+      </h2>
+
+      <p>
+        Dữ liệu được KeepLater lưu cục bộ
+        thường sẽ tồn tại trên thiết bị cho đến
+        khi bạn xóa nội dung tương ứng,
+        đặt lại ứng dụng hoặc gỡ ứng dụng,
+        tùy thuộc vào cơ chế sao lưu
+        của hệ điều hành.
+      </p>
+
+      <p>
+        Nếu một số thông tin được xử lý
+        bởi nhà cung cấp dịch vụ,
+        dữ liệu chỉ nên được duy trì
+        trong khoảng thời gian cần thiết
+        để cung cấp dịch vụ, tuân thủ
+        nghĩa vụ pháp lý hoặc đảm bảo bảo mật.
+      </p>
+
+    </div>
+
+
+    <!-- 12 -->
+
+    <div class="section">
+
+      <h2>
+        12. Xóa dữ liệu
+      </h2>
+
+      <p>
+        Khi ứng dụng hỗ trợ,
+        bạn có thể trực tiếp xóa:
+      </p>
+
+      <ul>
+
+        <li>Nội dung đã lưu</li>
+
+        <li>Nhãn</li>
+
+        <li>Bộ sưu tập</li>
+
+        <li>Nội dung yêu thích</li>
+
+        <li>
+          Các dữ liệu ứng dụng liên quan
+        </li>
+
+      </ul>
+
+      <p>
+        Việc gỡ KeepLater khỏi thiết bị
+        thông thường sẽ xóa dữ liệu ứng dụng
+        được lưu cục bộ, tùy thuộc vào
+        cơ chế backup và restore
+        của hệ điều hành.
+      </p>
+
+      <p>
+        Nếu bạn cho rằng thông tin của mình
+        đang được lưu trong một dịch vụ
+        do chúng tôi quản lý và muốn yêu cầu xóa,
+        vui lòng liên hệ qua email bên dưới.
+      </p>
+
+    </div>
+
+
+    <!-- 13 -->
+
+    <div class="section">
+
+      <h2>
+        13. Quyền riêng tư của trẻ em
+      </h2>
+
+      <p>
+        KeepLater không được thiết kế riêng
+        cho trẻ em dưới độ tuổi tối thiểu
+        được quy định bởi pháp luật áp dụng.
+      </p>
+
+      <p>
+        Chúng tôi không chủ động thu thập
+        dữ liệu cá nhân của trẻ em
+        trái với các quy định pháp luật
+        về quyền riêng tư.
+      </p>
+
+    </div>
+
+
+    <!-- 14 -->
+
+    <div class="section">
+
+      <h2>
+        14. Bảo mật
+      </h2>
+
+      <p>
+        Chúng tôi sử dụng các biện pháp
+        kỹ thuật hợp lý nhằm bảo vệ dữ liệu
+        được xử lý bởi KeepLater.
+      </p>
+
+      <p>
+        Người dùng cũng có trách nhiệm
+        bảo vệ quyền truy cập vào thiết bị.
+      </p>
+
+      <p>
+        Chúng tôi khuyến nghị sử dụng:
+      </p>
+
+      <ul>
+
+        <li>Mật mã thiết bị</li>
+
+        <li>Face ID</li>
+
+        <li>Touch ID</li>
+
+        <li>
+          Các tính năng bảo mật khác
+          do hệ điều hành cung cấp
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- 15 -->
+
+    <div class="section">
+
+      <h2>
+        15. Nội dung bên thứ ba và quyền sở hữu trí tuệ
+      </h2>
+
+      <p>
+        KeepLater giúp người dùng sắp xếp
+        các liên kết đến nội dung được cung cấp
+        bởi nền tảng bên thứ ba.
+      </p>
+
+      <p>
+        Quyền sở hữu video, hình ảnh,
+        âm thanh, thương hiệu, logo,
+        tên kênh và các tài sản khác
+        của bên thứ ba vẫn thuộc
+        về chủ sở hữu tương ứng.
+      </p>
+
+      <p>
+        Việc lưu một liên kết trong KeepLater
+        không chuyển quyền sở hữu hoặc
+        quyền sở hữu trí tuệ của nội dung đó
+        cho KeepLater hoặc người dùng.
+      </p>
+
+      <p>
+        Người dùng có trách nhiệm sử dụng
+        nội dung bên thứ ba theo luật pháp
+        hiện hành và điều khoản của
+        nhà cung cấp nội dung tương ứng.
+      </p>
+
+      <div class="notice">
+
+        <p>
+          YouTube và các thương hiệu liên quan
+          thuộc chủ sở hữu tương ứng,
+          bao gồm Google LLC.
+        </p>
+
+        <p>
+          TikTok và các thương hiệu liên quan
+          thuộc chủ sở hữu tương ứng.
+        </p>
+
+        <p>
+          Việc KeepLater đề cập đến tên
+          các nền tảng bên thứ ba chỉ nhằm
+          xác định nguồn nội dung hoặc
+          dịch vụ tương thích và không có nghĩa
+          rằng các nền tảng này tài trợ
+          hoặc chứng thực KeepLater.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- 16 -->
+
+    <div class="section">
+
+      <h2>
+        16. Người dùng quốc tế
+      </h2>
+
+      <p>
+        KeepLater có thể được cung cấp
+        ở nhiều quốc gia và bằng nhiều ngôn ngữ.
+      </p>
+
+      <p>
+        Khi truy cập nội dung bên thứ ba,
+        dữ liệu có thể được xử lý bởi
+        nhà cung cấp tương ứng tại quốc gia
+        khác với nơi bạn cư trú,
+        tùy thuộc vào cơ sở hạ tầng
+        và chính sách của họ.
+      </p>
+
+    </div>
+
+
+    <!-- 17 -->
+
+    <div class="section">
+
+      <h2>
+        17. Thay đổi Privacy Policy
+      </h2>
+
+      <p>
+        Chúng tôi có thể cập nhật Privacy Policy
+        khi KeepLater bổ sung tính năng mới,
+        thay đổi cách xử lý dữ liệu,
+        tích hợp thêm dịch vụ hoặc
+        có thay đổi về yêu cầu pháp lý.
+      </p>
+
+      <p>
+        Phiên bản mới sẽ được công bố
+        cùng với ngày “Cập nhật lần cuối”
+        được điều chỉnh tương ứng.
+      </p>
+
+    </div>
+
+
+    <!-- 18 -->
+
+    <div class="section">
+
+      <h2>
+        18. Liên hệ
+      </h2>
+
+      <p>
+        Nếu bạn có câu hỏi liên quan đến
+        Privacy Policy hoặc cách KeepLater
+        xử lý dữ liệu, vui lòng liên hệ:
+      </p>
+
+      <div class="contact-box">
+
+        <p>
+          <strong>Ứng dụng:</strong>
+          KeepLater
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+
+          <a href="mailto:2t.global921@gmail.com">
+            2t.global921@gmail.com
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <div class="footer">
+    © 2026 KeepLater. All rights reserved.
+  </div>
+
+</main>
+
+
+<script>
+
+  function switchLang(lang) {
+
+    const enContent =
+      document.getElementById("content-en");
+
+    const viContent =
+      document.getElementById("content-vi");
+
+    const enButton =
+      document.getElementById("btn-en");
+
+    const viButton =
+      document.getElementById("btn-vi");
+
+
+    if (lang === "vi") {
+
+      enContent.classList.remove("active");
+      viContent.classList.add("active");
+
+      enButton.classList.remove("active");
+      viButton.classList.add("active");
+
+      document.documentElement.lang = "vi";
+
+    } else {
+
+      viContent.classList.remove("active");
+      enContent.classList.add("active");
+
+      viButton.classList.remove("active");
+      enButton.classList.add("active");
+
+      document.documentElement.lang = "en";
+    }
+
+  }
+
+</script>
+
+</body>
+</html>
