@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Store-X Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f5f7fb; color: #172033; line-height: 1.65; }
+    main { max-width: 880px; margin: 0 auto; padding: 32px 20px 64px; }
+    article { background: #fff; border: 1px solid #e3e8f2; border-radius: 18px; padding: 28px; box-shadow: 0 10px 32px rgba(28, 43, 75, .08); }
+    h1 { margin: 0 0 4px; font-size: clamp(30px, 5vw, 44px); }
+    h2 { margin-top: 30px; font-size: 22px; }
+    .meta { color: #526079; }
+    .notice { padding: 16px; border-radius: 12px; background: #eef5ff; border: 1px solid #cfe1ff; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0 28px; }
+    a { color: #1565c0; }
+    li { margin: 7px 0; }
+    hr { border: 0; border-top: 1px solid #e3e8f2; margin: 38px 0; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1420; color: #eef2fa; }
+      article { background: #171e2c; border-color: #2c374c; box-shadow: none; }
+      .meta { color: #b8c2d6; }
+      .notice { background: #172a45; border-color: #294b77; }
+      a { color: #8bc1ff; }
+      hr { border-color: #2c374c; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <h1>Store-X Privacy Policy</h1>
+    <p class="meta">Version 2026.10.11 · Effective 11 October 2026</p>
+    <nav>
+      <a href="#english">English</a>
+      <a href="#vietnamese">Tiếng Việt</a>
+      <a href="/photo-backup-terms.html">Customer Photo Cloud Backup Terms</a>
+      <a href="#account-deletion">Account deletion</a>
+    </nav>
+
+    <section id="english">
+      <div class="notice"><strong>Summary:</strong> Store-X is a business-management application for stores and salons. Store-X processes account, store, synchronization, security, and support data to operate the service. Customer records and customer photos are entered by a store for its own business purposes. Customer-photo cloud backup is optional and is not enabled until an authorized store user gives an affirmative in-app authorization.</div>
+
+      <h2>1. Who we are and where this policy applies</h2>
+      <p>This policy applies to the Store-X applications for iOS and Android, Store-X APIs, and related web services. The developer or organization identified as the publisher of Store-X in the Apple App Store or Google Play is referred to in this policy as “Store-X,” “we,” “us,” or “our.” Store-X can be contacted at <a href="mailto:2t.global921@gmail.com">2t.global921@gmail.com</a>.</p>
+
+      <h2>2. Our role and the store's role</h2>
+      <p>Store-X determines how account administration, authentication, security, diagnostics, support, and service-operation data is processed. For customer records, appointments, notes, bills, customer photos, and other business content entered by a store, the store normally determines why the data is used and acts as the responsible business or data controller. Store-X processes that content on the store's instructions to provide synchronization, backup, recovery, and related functions.</p>
+      <p>A store is responsible for giving its customers any legally required notice, selecting an appropriate lawful basis, honoring customer requests, controlling staff access, and obtaining consent from the customer, parent, or guardian where applicable.</p>
+
+      <h2>3. Information we collect or process</h2>
+      <ul>
+        <li><strong>Account and sign-in data:</strong> name, email address, phone number where provided, account and provider identifiers, profile details returned by a selected sign-in provider, authentication tokens, store memberships, roles, and session information.</li>
+        <li><strong>Store and business data:</strong> store name, address, selected map coordinates, contact details, settings, staff, services, appointments, bills, expenses, notes, and related synchronization metadata.</li>
+        <li><strong>Customer records:</strong> customer name, phone number, notes, appointments, transaction or service history, and other details an authorized store user chooses to enter or import.</li>
+        <li><strong>Contacts selected or imported by a user:</strong> the app may read contact names, phone numbers, and available contact thumbnails to present an import feature. Only records the user chooses to save as Store-X customers are submitted for Store-X synchronization.</li>
+        <li><strong>Photos and media:</strong> store images and customer images selected through the system photo picker or captured with the camera. Customer photos are uploaded to cloud backup only after the current backup authorization is accepted.</li>
+        <li><strong>Location:</strong> an approximate or precise device location when the user grants permission and requests location-based store setup or map functions. Store-X may save the location selected for a store.</li>
+        <li><strong>Device and notification data:</strong> device identifier, device name, app and operating-system version, language, push-notification token, notification preferences, network and session information.</li>
+        <li><strong>Usage, diagnostics, and security data:</strong> feature events, timestamps, crash reports, error logs, IP address and request metadata, abuse-prevention signals, and performance information.</li>
+        <li><strong>Support communications:</strong> messages, attachments, and contact information submitted when requesting help, privacy support, or deletion.</li>
+      </ul>
+      <p>We receive information directly from users and stores, from the device when permission or a feature requires it, from sign-in providers selected by the user, and automatically when the app communicates with Store-X services.</p>
+
+      <h2>4. Device permissions and user choice</h2>
+      <ul>
+        <li><strong>Camera and photos:</strong> used only when a user chooses to capture or select an image for a Store-X feature.</li>
+        <li><strong>Contacts:</strong> used to display the optional customer-import experience. Permission can be denied or revoked in device settings.</li>
+        <li><strong>Location:</strong> used for optional store-location and map features while the app is in use. Permission can be denied or revoked in device settings.</li>
+        <li><strong>Notifications:</strong> used for reminders, appointments, and service notices when enabled.</li>
+      </ul>
+      <p>Denying an optional permission may disable the related feature but does not prevent use of unrelated Store-X functions.</p>
+
+      <h2>5. Why we process information</h2>
+      <p>We process information to create and administer accounts; authenticate users; provide store-management, synchronization, backup, recovery, notification, and support functions; personalize language and settings; diagnose failures; measure and improve service performance; secure accounts; prevent fraud and abuse; enforce agreements; and comply with legal obligations.</p>
+      <p>Depending on the data and applicable law, processing may be based on performance of a contract, the store's documented instructions, legitimate interests in operating and securing the service, compliance with law, or consent. Where consent is the legal basis, it may be withdrawn for future processing, without affecting processing already carried out lawfully.</p>
+
+      <h2>6. Customer-photo cloud backup</h2>
+      <p>Cloud backup is off until an authorized store user accepts the current <a href="/photo-backup-terms.html">Customer Photo Cloud Backup Terms</a>. After authorization, eligible customer photos already stored by that store and new customer photos may be uploaded in the foreground or background for synchronization, recovery, and access by authorized users of the signed-in store.</p>
+      <p>Customer photos are stored using Cloudflare R2. Time-limited upload or download links may be used. Store-X does not use customer photos for advertising, facial recognition, biometric identification, surveillance, sale of personal information, or training general-purpose artificial-intelligence models.</p>
+
+      <h2>7. Service providers and disclosures</h2>
+      <p>Store-X may provide limited data to service providers that support hosting, database operations, object storage, authentication, notifications, analytics, crash reporting, security, communications, and support. These may include Cloudflare for customer-photo storage; Google or Firebase for authentication, notifications, analytics, and crash reporting; and Apple, Google, or Facebook when a user chooses the relevant sign-in method.</p>
+      <p>Service providers may process data only for the services they provide, under their applicable terms and safeguards. We require providers handling Store-X personal data to apply protections consistent with this policy and applicable law. We may also disclose information to professional advisers under confidentiality duties, in a business reorganization subject to appropriate safeguards, to protect users or the service, or when a valid legal request requires it.</p>
+
+      <h2>8. No sale, targeted advertising, or biometric use</h2>
+      <p>Store-X does not sell customer photos or customer records and does not share them for cross-context behavioral advertising. Store-X does not create facial templates or use customer photos to identify a person. If these practices materially change, we will update this policy and provide any notice and choice required by law.</p>
+
+      <h2>9. International processing</h2>
+      <p>Store-X and its providers may process data outside the country where a store, user, or customer is located. Where required, we use recognized safeguards such as contractual protections and provider data-protection terms. Storage location depends on production configuration and provider infrastructure; Store-X does not promise that all data remains in one country.</p>
+
+      <h2>10. Retention</h2>
+      <p>Account, store, and synchronized business data is retained while the relevant account or store uses the service and thereafter only as reasonably necessary for deletion processing, security, fraud prevention, legal obligations, dispute resolution, and enforcement. Authentication records and push tokens are retained until they expire, are revoked, or are no longer needed. Diagnostics and server logs are kept only for periods reasonably necessary for reliability and security.</p>
+      <p>Active cloud photos remain until an authorized store user deletes them, the store closes the relevant service relationship, or a verified deletion request is completed, subject to lawful exceptions. Deletion removes the active R2 object and marks the related service record as deleted. Limited copies may remain temporarily in protected logs or disaster-recovery backups until overwritten or expired under the applicable backup cycle.</p>
+
+      <h2 id="account-deletion">11. Account deletion, photo deletion, and withdrawal</h2>
+      <p>An account holder may request deletion of a Store-X account and associated personal data through an available in-app account-deletion control or by emailing <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Account%20Deletion%20Request">2t.global921@gmail.com</a> with the subject “Store-X Account Deletion Request.” Include the sign-in email and store name, but do not send passwords or authentication tokens. We may verify identity and authority before acting.</p>
+      <p>After verification, Store-X will delete or anonymize data associated with the account unless it must be retained for security, fraud prevention, financial or tax records, legal claims, or another legal obligation. Where a record belongs to a store with multiple authorized users, Store-X may need authorization from the store owner before deleting shared business data.</p>
+      <p>Stores can delete individual customer photos using available Store-X deletion actions or submit a verified request. Withdrawing authorization for future photo backup does not automatically delete photos already uploaded; those photos must be deleted separately. A customer whose information was entered by a store should normally contact that store first. Store-X will assist with verified requests as required.</p>
+
+      <h2>12. Privacy rights</h2>
+      <p>Depending on applicable law and the relationship to Store-X or a store, individuals may have rights to know or access their data; correct inaccurate data; request deletion; restrict or object to processing; receive a portable copy; withdraw consent; and complain to a data-protection authority. Where applicable, individuals may also appeal a denied request and may exercise rights without unlawful discrimination.</p>
+      <p>Submit a request to <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Privacy%20Request">2t.global921@gmail.com</a>. We may request information reasonably necessary to verify identity, authority, and the applicable store. Authorized agents may be required to provide proof of authorization.</p>
+
+      <h2>13. Security</h2>
+      <p>Store-X uses controls designed for the nature of the service, including encrypted network transport, authenticated sessions, tenant and store scoping, time-limited object access, integrity checks for media uploads, rate limiting, logging, and access controls. No method of storage or transmission is completely secure. Stores must protect their devices and credentials, review staff access, keep applications updated, and report suspected unauthorized access promptly.</p>
+
+      <h2>14. Children</h2>
+      <p>Store-X is a business application and is not directed to children. A store must not create records about or upload photos of a child unless it has authority, a valid lawful basis, and any parent or guardian permission required by applicable law. Store-X does not knowingly invite children to create Store-X business accounts.</p>
+
+      <h2>15. Changes and contact</h2>
+      <p>We may update this policy to reflect product, provider, or legal changes. The current version and effective date will be posted here. Material changes affecting customer-photo backup may require renewed in-app authorization before additional photos are uploaded.</p>
+      <p>Privacy and deletion contact: <a href="mailto:2t.global921@gmail.com">2t.global921@gmail.com</a></p>
+    </section>
+
+    <hr>
+
+    <section id="vietnamese" lang="vi">
+      <h1>Chính sách quyền riêng tư Store-X</h1>
+      <p class="meta">Phiên bản 2026.10.11 · Có hiệu lực ngày 11/10/2026</p>
+      <div class="notice"><strong>Tóm tắt:</strong> Store-X là ứng dụng quản lý dành cho cửa hàng và salon. Store-X xử lý dữ liệu tài khoản, cửa hàng, đồng bộ, bảo mật và hỗ trợ để vận hành dịch vụ. Hồ sơ và ảnh khách hàng do cửa hàng nhập phục vụ hoạt động của chính cửa hàng. Sao lưu ảnh khách hàng lên đám mây là tùy chọn và chỉ được bật sau khi người dùng có thẩm quyền của cửa hàng xác nhận rõ ràng trong ứng dụng.</div>
+
+      <h2>1. Chúng tôi là ai và phạm vi chính sách</h2>
+      <p>Chính sách này áp dụng cho ứng dụng Store-X trên iOS và Android, API Store-X và các dịch vụ web liên quan. Nhà phát triển hoặc tổ chức được ghi là đơn vị phát hành Store-X trên Apple App Store hoặc Google Play được gọi trong chính sách này là “Store-X” hoặc “chúng tôi”. Liên hệ Store-X tại <a href="mailto:2t.global921@gmail.com">2t.global921@gmail.com</a>.</p>
+
+      <h2>2. Vai trò của Store-X và cửa hàng</h2>
+      <p>Store-X quyết định cách xử lý dữ liệu phục vụ quản trị tài khoản, xác thực, bảo mật, chẩn đoán, hỗ trợ và vận hành dịch vụ. Đối với hồ sơ khách hàng, lịch hẹn, ghi chú, hóa đơn, ảnh khách hàng và nội dung nghiệp vụ do cửa hàng nhập, cửa hàng thông thường quyết định mục đích sử dụng và là đơn vị kinh doanh hoặc bên kiểm soát dữ liệu chịu trách nhiệm. Store-X xử lý nội dung đó theo chỉ dẫn của cửa hàng để cung cấp đồng bộ, sao lưu, khôi phục và các chức năng liên quan.</p>
+      <p>Cửa hàng chịu trách nhiệm thông báo cho khách hàng khi pháp luật yêu cầu, lựa chọn căn cứ xử lý hợp pháp, giải quyết yêu cầu của khách hàng, quản lý quyền nhân viên và xin sự đồng ý của khách hàng, cha mẹ hoặc người giám hộ khi áp dụng.</p>
+
+      <h2>3. Thông tin chúng tôi thu thập hoặc xử lý</h2>
+      <ul>
+        <li><strong>Dữ liệu tài khoản và đăng nhập:</strong> tên, email, số điện thoại nếu được cung cấp, mã tài khoản và nhà cung cấp đăng nhập, hồ sơ do nhà cung cấp đăng nhập được chọn trả về, token xác thực, tư cách thành viên cửa hàng, vai trò và thông tin phiên.</li>
+        <li><strong>Dữ liệu cửa hàng và nghiệp vụ:</strong> tên, địa chỉ, tọa độ bản đồ được chọn, thông tin liên hệ, cài đặt, nhân viên, dịch vụ, lịch hẹn, hóa đơn, chi phí, ghi chú và metadata đồng bộ.</li>
+        <li><strong>Hồ sơ khách hàng:</strong> tên, số điện thoại, ghi chú, lịch hẹn, lịch sử giao dịch hoặc dịch vụ và thông tin khác mà người dùng có thẩm quyền chọn nhập hoặc import.</li>
+        <li><strong>Danh bạ do người dùng chọn hoặc import:</strong> ứng dụng có thể đọc tên, số điện thoại và ảnh thu nhỏ có sẵn để hiển thị tính năng import. Chỉ bản ghi mà người dùng chọn lưu thành khách hàng Store-X mới được gửi để đồng bộ Store-X.</li>
+        <li><strong>Ảnh và media:</strong> ảnh cửa hàng và ảnh khách hàng được chọn qua trình chọn ảnh hệ thống hoặc chụp bằng camera. Ảnh khách hàng chỉ được tải lên cloud backup sau khi chấp nhận quyền sao lưu hiện hành.</li>
+        <li><strong>Vị trí:</strong> vị trí gần đúng hoặc chính xác của thiết bị khi người dùng cấp quyền và yêu cầu thiết lập vị trí cửa hàng hoặc dùng chức năng bản đồ. Store-X có thể lưu vị trí người dùng chọn cho cửa hàng.</li>
+        <li><strong>Dữ liệu thiết bị và thông báo:</strong> mã thiết bị, tên thiết bị, phiên bản ứng dụng và hệ điều hành, ngôn ngữ, push token, tùy chọn thông báo, dữ liệu mạng và phiên.</li>
+        <li><strong>Dữ liệu sử dụng, chẩn đoán và bảo mật:</strong> sự kiện tính năng, mốc thời gian, báo cáo crash, log lỗi, địa chỉ IP và metadata request, tín hiệu chống lạm dụng và hiệu năng.</li>
+        <li><strong>Trao đổi hỗ trợ:</strong> nội dung, tệp đính kèm và thông tin liên hệ gửi khi yêu cầu hỗ trợ, quyền riêng tư hoặc xóa dữ liệu.</li>
+      </ul>
+      <p>Thông tin được nhận trực tiếp từ người dùng và cửa hàng, từ thiết bị khi tính năng hoặc quyền yêu cầu, từ nhà cung cấp đăng nhập do người dùng chọn, và tự động khi ứng dụng giao tiếp với dịch vụ Store-X.</p>
+
+      <h2>4. Quyền thiết bị và lựa chọn của người dùng</h2>
+      <ul>
+        <li><strong>Camera và ảnh:</strong> chỉ dùng khi người dùng chọn chụp hoặc chọn ảnh cho một chức năng Store-X.</li>
+        <li><strong>Danh bạ:</strong> dùng để hiển thị trải nghiệm import khách hàng tùy chọn. Có thể từ chối hoặc thu hồi quyền trong cài đặt thiết bị.</li>
+        <li><strong>Vị trí:</strong> dùng cho chức năng vị trí cửa hàng và bản đồ tùy chọn khi đang sử dụng ứng dụng. Có thể từ chối hoặc thu hồi quyền trong cài đặt thiết bị.</li>
+        <li><strong>Thông báo:</strong> dùng cho nhắc việc, lịch hẹn và thông báo dịch vụ khi được bật.</li>
+      </ul>
+      <p>Việc từ chối một quyền tùy chọn có thể làm chức năng liên quan không hoạt động nhưng không ngăn sử dụng các phần Store-X không liên quan.</p>
+
+      <h2>5. Mục đích và căn cứ xử lý</h2>
+      <p>Thông tin được xử lý để tạo và quản lý tài khoản; xác thực người dùng; cung cấp chức năng quản lý cửa hàng, đồng bộ, sao lưu, khôi phục, thông báo và hỗ trợ; cá nhân hóa ngôn ngữ và cài đặt; chẩn đoán lỗi; đo lường và cải thiện hiệu năng; bảo vệ tài khoản; ngăn gian lận, lạm dụng; thực thi thỏa thuận và tuân thủ nghĩa vụ pháp lý.</p>
+      <p>Tùy dữ liệu và luật áp dụng, việc xử lý có thể dựa trên thực hiện hợp đồng, chỉ dẫn đã ghi nhận của cửa hàng, lợi ích hợp pháp trong vận hành và bảo vệ dịch vụ, tuân thủ pháp luật hoặc sự đồng ý. Khi sự đồng ý là căn cứ xử lý, có thể thu hồi cho việc xử lý trong tương lai mà không ảnh hưởng đến hoạt động đã được thực hiện hợp pháp trước đó.</p>
+
+      <h2>6. Sao lưu đám mây ảnh khách hàng</h2>
+      <p>Sao lưu cloud được tắt cho đến khi người dùng có thẩm quyền của cửa hàng chấp nhận <a href="/photo-backup-terms.html">Điều khoản sao lưu đám mây ảnh khách hàng</a> hiện hành. Sau khi được cho phép, ảnh khách hàng đủ điều kiện đã có của cửa hàng và ảnh mới có thể được tải lên ở foreground hoặc background để đồng bộ, khôi phục và cho người dùng có thẩm quyền của cửa hàng đang đăng nhập truy cập.</p>
+      <p>Ảnh khách hàng được lưu bằng Cloudflare R2. Hệ thống có thể dùng đường dẫn upload hoặc download có thời hạn. Store-X không dùng ảnh khách hàng cho quảng cáo, nhận diện khuôn mặt, định danh sinh trắc học, giám sát, bán thông tin cá nhân hoặc huấn luyện mô hình trí tuệ nhân tạo đa dụng.</p>
+
+      <h2>7. Nhà cung cấp dịch vụ và trường hợp tiết lộ</h2>
+      <p>Store-X có thể cung cấp dữ liệu giới hạn cho nhà cung cấp hỗ trợ hosting, cơ sở dữ liệu, object storage, xác thực, thông báo, analytics, báo cáo crash, bảo mật, liên lạc và hỗ trợ. Các bên này có thể gồm Cloudflare cho lưu trữ ảnh khách hàng; Google hoặc Firebase cho xác thực, thông báo, analytics và crash report; Apple, Google hoặc Facebook khi người dùng chọn phương thức đăng nhập tương ứng.</p>
+      <p>Nhà cung cấp chỉ được xử lý dữ liệu cho dịch vụ họ cung cấp theo điều khoản và biện pháp bảo vệ áp dụng. Chúng tôi yêu cầu nhà cung cấp xử lý dữ liệu cá nhân Store-X áp dụng mức bảo vệ phù hợp với chính sách này và pháp luật. Dữ liệu cũng có thể được tiết lộ cho cố vấn chuyên môn có nghĩa vụ bảo mật, trong tái cấu trúc doanh nghiệp có biện pháp bảo vệ phù hợp, để bảo vệ người dùng hoặc dịch vụ, hoặc theo yêu cầu pháp lý hợp lệ.</p>
+
+      <h2>8. Không bán dữ liệu, quảng cáo nhắm mục tiêu hoặc sử dụng sinh trắc học</h2>
+      <p>Store-X không bán ảnh hoặc hồ sơ khách hàng và không chia sẻ chúng cho quảng cáo hành vi liên ngữ cảnh. Store-X không tạo mẫu khuôn mặt hoặc dùng ảnh khách hàng để nhận diện một người. Nếu hoạt động này thay đổi đáng kể, chúng tôi sẽ cập nhật chính sách và cung cấp thông báo, lựa chọn theo luật áp dụng.</p>
+
+      <h2>9. Xử lý dữ liệu quốc tế</h2>
+      <p>Store-X và nhà cung cấp có thể xử lý dữ liệu ngoài quốc gia của cửa hàng, người dùng hoặc khách hàng. Khi pháp luật yêu cầu, chúng tôi dùng biện pháp được công nhận như bảo vệ theo hợp đồng và điều khoản bảo vệ dữ liệu của nhà cung cấp. Vị trí lưu trữ phụ thuộc cấu hình production và hạ tầng nhà cung cấp; Store-X không cam kết mọi dữ liệu luôn nằm trong một quốc gia.</p>
+
+      <h2>10. Thời gian lưu giữ</h2>
+      <p>Dữ liệu tài khoản, cửa hàng và nghiệp vụ đồng bộ được lưu trong khi tài khoản hoặc cửa hàng liên quan sử dụng dịch vụ, và sau đó chỉ trong thời gian hợp lý cần cho xử lý xóa, bảo mật, chống gian lận, nghĩa vụ pháp lý, giải quyết tranh chấp và thực thi. Dữ liệu xác thực và push token được lưu đến khi hết hạn, bị thu hồi hoặc không còn cần thiết. Dữ liệu chẩn đoán và log server chỉ được giữ trong thời gian hợp lý cần cho độ ổn định và bảo mật.</p>
+      <p>Ảnh cloud đang hoạt động được lưu đến khi người dùng có thẩm quyền xóa, cửa hàng chấm dứt quan hệ dịch vụ liên quan hoặc yêu cầu xóa đã xác minh hoàn tất, trừ ngoại lệ pháp luật. Việc xóa loại bỏ object R2 đang hoạt động và đánh dấu bản ghi dịch vụ liên quan là đã xóa. Một số bản sao giới hạn có thể còn tạm thời trong log được bảo vệ hoặc backup phục hồi thảm họa đến khi bị ghi đè hoặc hết hạn theo chu kỳ backup áp dụng.</p>
+
+      <h2 id="xoa-tai-khoan">11. Xóa tài khoản, xóa ảnh và thu hồi quyền</h2>
+      <p>Chủ tài khoản có thể yêu cầu xóa tài khoản Store-X và dữ liệu cá nhân liên quan bằng chức năng xóa tài khoản trong ứng dụng nếu có, hoặc gửi email tới <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Account%20Deletion%20Request">2t.global921@gmail.com</a> với tiêu đề “Store-X Account Deletion Request”. Hãy cung cấp email đăng nhập và tên cửa hàng, nhưng không gửi mật khẩu hoặc token xác thực. Chúng tôi có thể xác minh danh tính và thẩm quyền trước khi xử lý.</p>
+      <p>Sau khi xác minh, Store-X sẽ xóa hoặc ẩn danh dữ liệu gắn với tài khoản, trừ dữ liệu phải giữ cho bảo mật, chống gian lận, hồ sơ tài chính hoặc thuế, khiếu nại pháp lý hoặc nghĩa vụ pháp luật khác. Khi bản ghi thuộc cửa hàng có nhiều người dùng có thẩm quyền, Store-X có thể cần xác nhận của chủ cửa hàng trước khi xóa dữ liệu nghiệp vụ dùng chung.</p>
+      <p>Cửa hàng có thể xóa từng ảnh khách hàng bằng chức năng xóa của Store-X hoặc gửi yêu cầu đã xác minh. Thu hồi quyền sao lưu ảnh trong tương lai không tự động xóa ảnh đã upload; các ảnh đó phải được xóa riêng. Khách hàng có dữ liệu do cửa hàng nhập thông thường nên liên hệ cửa hàng trước. Store-X sẽ hỗ trợ yêu cầu đã xác minh theo luật áp dụng.</p>
+
+      <h2>12. Quyền riêng tư</h2>
+      <p>Tùy luật áp dụng và quan hệ với Store-X hoặc cửa hàng, cá nhân có thể có quyền biết hoặc truy cập dữ liệu; sửa dữ liệu không chính xác; yêu cầu xóa; hạn chế hoặc phản đối xử lý; nhận bản sao có thể chuyển; thu hồi sự đồng ý và khiếu nại tới cơ quan bảo vệ dữ liệu. Khi áp dụng, cá nhân cũng có thể kháng nghị quyết định từ chối yêu cầu và thực hiện quyền mà không bị phân biệt đối xử trái pháp luật.</p>
+      <p>Gửi yêu cầu tới <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Privacy%20Request">2t.global921@gmail.com</a>. Chúng tôi có thể yêu cầu thông tin hợp lý để xác minh danh tính, thẩm quyền và cửa hàng liên quan. Người đại diện được ủy quyền có thể phải cung cấp bằng chứng ủy quyền.</p>
+
+      <h2>13. Bảo mật</h2>
+      <p>Store-X sử dụng biện pháp phù hợp với tính chất dịch vụ, gồm mã hóa khi truyền qua mạng, phiên đã xác thực, phân tách tenant và cửa hàng, quyền truy cập object có thời hạn, kiểm tra toàn vẹn upload media, rate limiting, ghi log và kiểm soát truy cập. Không phương thức lưu trữ hoặc truyền dữ liệu nào an toàn tuyệt đối. Cửa hàng phải bảo vệ thiết bị và thông tin đăng nhập, rà soát quyền nhân viên, cập nhật ứng dụng và báo ngay khi nghi ngờ truy cập trái phép.</p>
+
+      <h2>14. Trẻ em</h2>
+      <p>Store-X là ứng dụng kinh doanh và không hướng đến trẻ em. Cửa hàng không được tạo hồ sơ hoặc tải ảnh trẻ em lên nếu không có thẩm quyền, căn cứ hợp pháp và sự cho phép của cha mẹ hoặc người giám hộ theo luật áp dụng. Store-X không chủ ý mời trẻ em tạo tài khoản kinh doanh Store-X.</p>
+
+      <h2>15. Thay đổi và liên hệ</h2>
+      <p>Chúng tôi có thể cập nhật chính sách để phản ánh thay đổi về sản phẩm, nhà cung cấp hoặc pháp luật. Phiên bản và ngày hiệu lực hiện hành sẽ được công bố tại đây. Thay đổi quan trọng ảnh hưởng đến sao lưu ảnh khách hàng có thể yêu cầu xác nhận lại trong ứng dụng trước khi tải thêm ảnh.</p>
+      <p>Liên hệ quyền riêng tư và xóa dữ liệu: <a href="mailto:2t.global921@gmail.com">2t.global921@gmail.com</a></p>
+    </section>
+  </article>
+</main>
+</body>
+</html>
