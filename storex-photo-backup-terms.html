@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Store-X Customer Photo Cloud Backup Terms</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f5f7fb; color: #172033; line-height: 1.65; }
+    main { max-width: 880px; margin: 0 auto; padding: 32px 20px 64px; }
+    article { background: #fff; border: 1px solid #e3e8f2; border-radius: 18px; padding: 28px; box-shadow: 0 10px 32px rgba(28, 43, 75, .08); }
+    h1 { margin: 0 0 4px; font-size: clamp(30px, 5vw, 44px); }
+    h2 { margin-top: 30px; font-size: 22px; }
+    .meta { color: #526079; }
+    .notice { padding: 16px; border-radius: 12px; background: #fff7e5; border: 1px solid #f0d48f; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0 28px; }
+    a { color: #1565c0; }
+    li { margin: 7px 0; }
+    hr { border: 0; border-top: 1px solid #e3e8f2; margin: 38px 0; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f1420; color: #eef2fa; }
+      article { background: #171e2c; border-color: #2c374c; box-shadow: none; }
+      .meta { color: #b8c2d6; }
+      .notice { background: #3a2d12; border-color: #6b5428; }
+      a { color: #8bc1ff; }
+      hr { border-color: #2c374c; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <article>
+    <h1>Customer Photo Cloud Backup Terms</h1>
+    <p class="meta">Version 2026.10.11 · Effective 11 October 2026</p>
+    <nav>
+      <a href="#english">English</a>
+      <a href="#vietnamese">Tiếng Việt</a>
+      <a href="/policy.html">Privacy Policy</a>
+    </nav>
+
+    <section id="english">
+      <div class="notice"><strong>Important:</strong> These terms apply specifically to customer-photo cloud backup. By checking the confirmation box and selecting “Agree and Enable Cloud Backup,” you confirm that you have authority to act for the store, have read these terms and the <a href="/policy.html">Privacy Policy</a>, and authorize Store-X to begin the backup described below.</div>
+
+      <h2>1. Activation and effect of acceptance</h2>
+      <p>Backup remains off until an authorized store user gives affirmative in-app authorization for the current version of these terms. Acceptance is recorded for the relevant store and policy version. It authorizes Store-X to process eligible customer photos on the store's instructions for synchronization, recovery, and authorized store access.</p>
+      <p>The person accepting confirms that they are the store owner or have been given authority by the store owner. Acceptance by a store user is not consent from the customer shown in a photo and does not replace any notice or consent that applicable law requires from that customer, parent, or guardian.</p>
+
+      <h2>2. Photos covered by backup</h2>
+      <p>After activation, Store-X may upload both eligible customer photos already saved by the store and eligible photos added later. This may include customer profile photos, service-result photos, photos in customer folders, and photo-note attachments supported by the current application. Uploads may occur when a user saves a photo and may continue through a background or retry queue while the user is signed in and the store remains authorized.</p>
+      <p>Before activation, photos may remain only in local application storage or another location selected by the user. Store-X will not initiate customer-photo cloud upload for that store until the current authorization requirement is satisfied.</p>
+
+      <h2>3. Store responsibilities and customer notice</h2>
+      <p>The store is responsible for each photo it collects or uploads and represents that it has a lawful basis and sufficient rights to capture, select, store, use, synchronize, disclose to Store-X and its storage provider, retain, and delete the photo. The store must clearly explain its own photo practices to customers and obtain express consent where required, especially for children, sensitive services, health-related information, or uses that a customer would not reasonably expect.</p>
+      <p>The store must keep any required evidence of consent, respect a customer's refusal or withdrawal, promptly handle access and deletion requests, and avoid uploading photos that are unnecessary for the service being provided.</p>
+
+      <h2>4. How backup works and who can access photos</h2>
+      <p>Store-X creates a store-scoped media record and may issue a time-limited upload URL for direct transfer to Cloudflare R2. The service validates supported file type, size, identifiers, and integrity metadata before marking an upload complete. Access is limited by authenticated tenant and store scope. Authorized staff in the same store may be able to view synchronized photos according to their application access.</p>
+      <p>The store must review staff membership and permissions, remove access promptly when a person no longer needs it, protect devices and credentials, and avoid sharing download links or exported photos with unauthorized persons.</p>
+
+      <h2>5. Permitted and prohibited use</h2>
+      <ul>
+        <li>Use backup only for lawful store operations and services requested or reasonably expected by customers.</li>
+        <li>Do not upload content that is unlawful, deceptive, exploitative, infringing, abusive, or obtained without required authority.</li>
+        <li>Do not use Store-X backup for facial recognition, biometric identification, surveillance, advertising profiles, sale of personal information, or training artificial-intelligence models.</li>
+        <li>Do not upload government identifiers, payment-card data, medical records, or other highly sensitive content unless it is strictly necessary, lawful, appropriately disclosed, and protected.</li>
+        <li>Do not attempt to bypass store scoping, time limits, integrity checks, access controls, or deletion mechanisms.</li>
+      </ul>
+
+      <h2>6. Store-X role and service providers</h2>
+      <p>For customer photos, Store-X normally acts as a service provider or processor on the store's documented instructions. Cloudflare provides R2 object-storage infrastructure as a subprocessor. Store-X may also use infrastructure, security, logging, communications, and support providers as described in the <a href="/policy.html">Privacy Policy</a>.</p>
+      <p>Store-X does not claim ownership of customer photos. The store and its customers retain their applicable rights. The store grants Store-X only the rights reasonably necessary to host, transmit, reproduce for technical processing, secure, recover, and delete the photos to provide the backup service.</p>
+
+      <h2>7. Retention, deletion, and stopping future backup</h2>
+      <p>Active cloud photos remain available until an authorized store user deletes them, the relevant service relationship ends, or a verified deletion request is completed, subject to legal and security exceptions. A successful deletion removes the active R2 object and marks the related service record as deleted. Limited copies may remain temporarily in protected logs or disaster-recovery backups until overwritten or expired under the applicable backup cycle.</p>
+      <p>Deleting a local device copy does not necessarily delete the cloud copy, and deleting a cloud copy does not necessarily remove exports or copies previously created by the store. The store must use the Store-X cloud deletion action for each relevant photo or submit a verified request.</p>
+      <p>To withdraw authorization for future backup, use an available in-app control or email <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Photo%20Backup%20Withdrawal">2t.global921@gmail.com</a>. Withdrawal applies prospectively after it is processed. It does not automatically erase photos already uploaded; request deletion separately. Until a withdrawal request is completed, already queued eligible uploads may continue.</p>
+
+      <h2>8. Customer requests</h2>
+      <p>The store is normally the first contact for a customer who wants to access, correct, restrict, export, or delete a photo. Store-X will provide reasonable assistance with verified requests where required. A customer may also contact <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Customer%20Photo%20Request">2t.global921@gmail.com</a>; Store-X may need to identify and coordinate with the responsible store before acting.</p>
+
+      <h2>9. Security and incidents</h2>
+      <p>Store-X uses encrypted transport, authenticated sessions, tenant and store scoping, time-limited object access, upload integrity checks, rate limiting, logging, and access controls designed for the service. No system is completely secure. The store must promptly report suspected unauthorized access, disclosure, loss, or misuse and cooperate with investigation and legally required notices.</p>
+
+      <h2>10. No secondary use by Store-X</h2>
+      <p>Store-X does not sell customer photos and does not use them for advertising, facial recognition, biometric identification, surveillance, or training general-purpose AI models. Store-X processes photos only to provide, secure, support, and comply with law in relation to the backup service.</p>
+
+      <h2>11. Availability and store copies</h2>
+      <p>Cloud backup is a supporting service and may be delayed or interrupted by maintenance, network conditions, device restrictions, account restrictions, software defects, or provider incidents. To the extent permitted by law, Store-X does not guarantee uninterrupted availability or that backup replaces every record-keeping obligation. The store remains responsible for any additional records, exports, or copies required for business continuity or law.</p>
+
+      <h2>12. Changes, relationship to other terms, and contact</h2>
+      <p>These terms supplement the Store-X Privacy Policy and any main service terms or data-processing agreement. If a conflict concerns customer-photo backup, the more specific protective requirement applies to that subject. Material changes may require renewed in-app acceptance before additional photos are uploaded.</p>
+      <p>Privacy, deletion, and backup questions: <a href="mailto:2t.global921@gmail.com">2t.global921@gmail.com</a>.</p>
+    </section>
+
+    <hr>
+
+    <section id="vietnamese" lang="vi">
+      <h1>Điều khoản sao lưu đám mây ảnh khách hàng</h1>
+      <p class="meta">Phiên bản 2026.10.11 · Có hiệu lực ngày 11/10/2026</p>
+      <div class="notice"><strong>Quan trọng:</strong> Điều khoản này áp dụng riêng cho sao lưu đám mây ảnh khách hàng. Khi tích ô xác nhận và chọn “Đồng ý và bật sao lưu”, bạn xác nhận có thẩm quyền đại diện cửa hàng, đã đọc điều khoản này và <a href="/policy.html">Chính sách quyền riêng tư</a>, đồng thời cho phép Store-X bắt đầu hoạt động backup được mô tả dưới đây.</div>
+
+      <h2>1. Kích hoạt và hiệu lực chấp thuận</h2>
+      <p>Backup được tắt cho đến khi người dùng có thẩm quyền của cửa hàng xác nhận rõ ràng trong ứng dụng đối với phiên bản điều khoản hiện hành. Việc chấp thuận được ghi nhận cho cửa hàng và phiên bản chính sách tương ứng. Việc này cho phép Store-X xử lý ảnh khách hàng theo chỉ dẫn của cửa hàng để đồng bộ, khôi phục và cho cửa hàng truy cập có thẩm quyền.</p>
+      <p>Người chấp thuận xác nhận mình là chủ cửa hàng hoặc đã được chủ cửa hàng ủy quyền. Việc người dùng cửa hàng chấp thuận không phải là sự đồng ý của khách hàng trong ảnh và không thay thế thông báo hoặc sự đồng ý mà pháp luật yêu cầu từ khách hàng, cha mẹ hoặc người giám hộ.</p>
+
+      <h2>2. Phạm vi ảnh được backup</h2>
+      <p>Sau khi kích hoạt, Store-X có thể tải lên cả ảnh khách hàng đủ điều kiện đã được cửa hàng lưu trước đó và ảnh đủ điều kiện được thêm sau này. Nội dung có thể gồm ảnh đại diện khách hàng, ảnh kết quả dịch vụ, ảnh trong thư mục khách hàng và ảnh đính kèm ghi chú được phiên bản ứng dụng hiện hành hỗ trợ. Upload có thể diễn ra khi người dùng lưu ảnh và tiếp tục qua hàng đợi background hoặc retry khi người dùng còn đăng nhập và cửa hàng còn được cho phép.</p>
+      <p>Trước khi kích hoạt, ảnh có thể chỉ nằm trong bộ nhớ local của ứng dụng hoặc vị trí khác do người dùng chọn. Store-X không khởi tạo upload cloud ảnh khách hàng của cửa hàng cho đến khi yêu cầu xác nhận hiện hành được đáp ứng.</p>
+
+      <h2>3. Trách nhiệm cửa hàng và thông báo cho khách hàng</h2>
+      <p>Cửa hàng chịu trách nhiệm đối với từng ảnh mình thu thập hoặc upload và cam kết có căn cứ hợp pháp, đủ quyền để chụp, chọn, lưu, sử dụng, đồng bộ, cung cấp cho Store-X và nhà cung cấp lưu trữ, lưu giữ và xóa ảnh. Cửa hàng phải giải thích rõ hoạt động xử lý ảnh của mình cho khách hàng và xin sự đồng ý rõ ràng khi pháp luật yêu cầu, đặc biệt đối với trẻ em, dịch vụ nhạy cảm, thông tin liên quan sức khỏe hoặc mục đích mà khách hàng không thể dự kiến hợp lý.</p>
+      <p>Cửa hàng phải lưu bằng chứng đồng ý khi cần, tôn trọng việc từ chối hoặc thu hồi của khách hàng, xử lý kịp thời yêu cầu truy cập/xóa và không upload ảnh không cần thiết cho dịch vụ được cung cấp.</p>
+
+      <h2>4. Cách backup hoạt động và người có thể truy cập</h2>
+      <p>Store-X tạo bản ghi media giới hạn theo cửa hàng và có thể cấp URL upload có thời hạn để truyền trực tiếp tới Cloudflare R2. Dịch vụ xác minh loại file, dung lượng, mã định danh và metadata toàn vẹn được hỗ trợ trước khi đánh dấu upload hoàn tất. Quyền truy cập được giới hạn theo tenant và cửa hàng đã xác thực. Nhân viên có thẩm quyền trong cùng cửa hàng có thể xem ảnh đồng bộ theo quyền truy cập ứng dụng của họ.</p>
+      <p>Cửa hàng phải rà soát thành viên và quyền nhân viên, xóa quyền ngay khi không còn cần thiết, bảo vệ thiết bị/thông tin đăng nhập và không chia sẻ link tải hoặc ảnh xuất cho người không có thẩm quyền.</p>
+
+      <h2>5. Sử dụng được phép và bị cấm</h2>
+      <ul>
+        <li>Chỉ dùng backup cho hoạt động cửa hàng hợp pháp và dịch vụ được khách hàng yêu cầu hoặc có thể dự kiến hợp lý.</li>
+        <li>Không upload nội dung trái pháp luật, lừa dối, bóc lột, xâm phạm, lạm dụng hoặc được thu thập khi chưa có thẩm quyền cần thiết.</li>
+        <li>Không dùng backup Store-X cho nhận diện khuôn mặt, định danh sinh trắc học, giám sát, hồ sơ quảng cáo, bán thông tin cá nhân hoặc huấn luyện mô hình AI.</li>
+        <li>Không upload giấy tờ định danh của chính phủ, dữ liệu thẻ thanh toán, hồ sơ y tế hoặc nội dung đặc biệt nhạy cảm khác trừ khi thật sự cần thiết, hợp pháp, đã được thông báo phù hợp và được bảo vệ.</li>
+        <li>Không tìm cách vượt qua phạm vi cửa hàng, thời hạn URL, kiểm tra toàn vẹn, kiểm soát truy cập hoặc cơ chế xóa.</li>
+      </ul>
+
+      <h2>6. Vai trò của Store-X và nhà cung cấp</h2>
+      <p>Đối với ảnh khách hàng, Store-X thông thường là nhà cung cấp dịch vụ hoặc bên xử lý theo chỉ dẫn đã ghi nhận của cửa hàng. Cloudflare cung cấp hạ tầng object storage R2 với vai trò bên xử lý phụ. Store-X cũng có thể dùng nhà cung cấp hạ tầng, bảo mật, log, liên lạc và hỗ trợ như mô tả trong <a href="/policy.html">Chính sách quyền riêng tư</a>.</p>
+      <p>Store-X không tuyên bố sở hữu ảnh khách hàng. Cửa hàng và khách hàng giữ các quyền áp dụng của mình. Cửa hàng chỉ cấp cho Store-X quyền hợp lý cần thiết để host, truyền, sao chép phục vụ xử lý kỹ thuật, bảo vệ, khôi phục và xóa ảnh nhằm cung cấp dịch vụ backup.</p>
+
+      <h2>7. Lưu giữ, xóa và dừng backup trong tương lai</h2>
+      <p>Ảnh cloud đang hoạt động được lưu đến khi người dùng có thẩm quyền xóa, quan hệ dịch vụ liên quan kết thúc hoặc yêu cầu xóa đã xác minh hoàn tất, trừ ngoại lệ pháp lý và bảo mật. Xóa thành công sẽ loại bỏ object R2 đang hoạt động và đánh dấu bản ghi dịch vụ liên quan là đã xóa. Bản sao giới hạn có thể còn tạm thời trong log được bảo vệ hoặc backup phục hồi thảm họa đến khi bị ghi đè hoặc hết hạn theo chu kỳ backup áp dụng.</p>
+      <p>Xóa bản local trên thiết bị không nhất thiết xóa bản cloud; xóa bản cloud không nhất thiết loại bỏ bản export hoặc bản sao cửa hàng đã tạo trước đó. Cửa hàng phải dùng chức năng xóa cloud Store-X cho từng ảnh liên quan hoặc gửi yêu cầu đã xác minh.</p>
+      <p>Để thu hồi quyền backup trong tương lai, hãy dùng chức năng trong ứng dụng nếu có hoặc gửi email tới <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Photo%20Backup%20Withdrawal">2t.global921@gmail.com</a>. Việc thu hồi áp dụng cho tương lai sau khi được xử lý và không tự động xóa ảnh đã upload; hãy yêu cầu xóa riêng. Trong thời gian chờ xử lý yêu cầu thu hồi, các upload đủ điều kiện đã nằm trong hàng đợi vẫn có thể tiếp tục.</p>
+
+      <h2>8. Yêu cầu của khách hàng</h2>
+      <p>Cửa hàng thông thường là đầu mối đầu tiên khi khách hàng muốn truy cập, sửa, hạn chế, xuất hoặc xóa ảnh. Store-X sẽ hỗ trợ hợp lý với yêu cầu đã xác minh khi pháp luật yêu cầu. Khách hàng cũng có thể liên hệ <a href="mailto:2t.global921@gmail.com?subject=Store-X%20Customer%20Photo%20Request">2t.global921@gmail.com</a>; Store-X có thể cần xác định và phối hợp với cửa hàng chịu trách nhiệm trước khi xử lý.</p>
+
+      <h2>9. Bảo mật và sự cố</h2>
+      <p>Store-X sử dụng mã hóa khi truyền, phiên đã xác thực, phân tách tenant/cửa hàng, quyền truy cập object có thời hạn, kiểm tra toàn vẹn upload, rate limiting, ghi log và kiểm soát truy cập phù hợp với dịch vụ. Không hệ thống nào an toàn tuyệt đối. Cửa hàng phải nhanh chóng báo khi nghi ngờ truy cập, tiết lộ, mất mát hoặc sử dụng trái phép và phối hợp điều tra, thông báo theo luật.</p>
+
+      <h2>10. Store-X không sử dụng cho mục đích thứ cấp</h2>
+      <p>Store-X không bán ảnh khách hàng và không dùng ảnh cho quảng cáo, nhận diện khuôn mặt, định danh sinh trắc học, giám sát hoặc huấn luyện mô hình AI đa dụng. Store-X chỉ xử lý ảnh để cung cấp, bảo vệ, hỗ trợ và tuân thủ pháp luật liên quan đến dịch vụ backup.</p>
+
+      <h2>11. Tính sẵn sàng và bản lưu của cửa hàng</h2>
+      <p>Cloud backup là dịch vụ hỗ trợ và có thể chậm hoặc gián đoạn do bảo trì, điều kiện mạng, giới hạn thiết bị/tài khoản, lỗi phần mềm hoặc sự cố nhà cung cấp. Trong phạm vi pháp luật cho phép, Store-X không bảo đảm dịch vụ luôn liên tục hoặc backup thay thế mọi nghĩa vụ lưu hồ sơ. Cửa hàng vẫn chịu trách nhiệm đối với hồ sơ, bản export hoặc bản sao bổ sung cần cho hoạt động liên tục hoặc pháp luật.</p>
+
+      <h2>12. Thay đổi, quan hệ với điều khoản khác và liên hệ</h2>
+      <p>Điều khoản này bổ sung cho Chính sách quyền riêng tư Store-X và điều khoản dịch vụ chính hoặc thỏa thuận xử lý dữ liệu áp dụng. Nếu có xung đột liên quan backup ảnh khách hàng, yêu cầu bảo vệ cụ thể hơn sẽ áp dụng cho nội dung đó. Thay đổi quan trọng có thể yêu cầu chấp thuận lại trong ứng dụng trước khi upload thêm ảnh.</p>
+      <p>Câu hỏi về quyền riêng tư, xóa dữ liệu và backup: <a href="mailto:2t.global921@gmail.com">2t.global921@gmail.com</a>.</p>
+    </section>
+  </article>
+</main>
+</body>
+</html>
